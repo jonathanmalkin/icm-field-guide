@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICM Field Guide"
+  short_description: "Explain and compare applied ICM patterns"
+  default_prompt: "Use $icm-field-guide to explain which applied ICM pattern fits this situation and why."
