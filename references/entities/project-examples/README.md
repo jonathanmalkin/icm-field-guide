@@ -16,6 +16,7 @@ Inclusion does not imply affiliation or endorsement.
 | [VigilOre](vigilore.md) | Audit/compliance | Source-claimed client system |
 | [NLP Logix](nlp-logix.md) | Acquisition/partnership flywheel | Source-claimed partnership |
 | [Emerge](emerge.md) | Acquisition flywheel | Detailed playbook with source claims |
+| [Festival outreach kit](festival-outreach-kit.md) | Acquisition flywheel | Builder-described shipped kit |
 | [Training Funnel](training-funnel.md) | Training/workforce enablement | Source-described operating model |
 | [EdubaWare](edubaware.md) | Method productization | Product vision/roadmap |
 | [The Ledger](the-ledger.md) | Talent marketplace | Public site observed; production status unverified |

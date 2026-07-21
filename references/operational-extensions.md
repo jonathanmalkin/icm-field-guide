@@ -16,6 +16,7 @@ folders and Markdown cannot enforce.
 | Persistent automation | Authority, concurrency, and evidence discipline |
 | Multiple runtimes | Runtime bridge and cold tests |
 | Completion or performance claim | Evidence discipline |
+| Moving or renaming anything with outside consumers | Restructure and moves |
 
 If none apply, do not add governance folders, ledgers, roles files, or evidence
 machinery merely for completeness.
@@ -93,6 +94,22 @@ A template is not a working system, a generated index is not proof of
 freshness, and a file containing `PASS` is not independent evidence. For
 important claims, record the action, environment, result, artifact, limitation,
 and reviewer without retaining sensitive payloads.
+
+## Restructure and moves
+
+Before moving or renaming a folder or file that has existed for more than a
+session, walk both directions:
+
+- **Forward:** from the workspace root, a cold reader reaches the new location
+  through files alone.
+- **Reverse:** search for who points INTO the old path from outside the moved
+  tree: scripts, schedulers, other workspaces, published links. Human readers
+  complain; machine consumers break silently.
+
+Record the search command and its scope next to the move, so the all-clear can
+be re-run instead of remembered. A version of the reverse walk is proposed
+upstream for Architect's walk test; this section is the advisory caution until
+it lands there.
 
 ## Practical review additions
 
