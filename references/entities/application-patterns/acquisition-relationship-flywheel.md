@@ -37,6 +37,7 @@ reusable methods. See [CRM operations](../system-archetypes/crm-operations.md).
 ## Related examples
 
 - [Emerge](../project-examples/emerge.md)
+- [Festival outreach kit](../project-examples/festival-outreach-kit.md)
 - [NLP Logix](../project-examples/nlp-logix.md)
 - [Training Funnel](../project-examples/training-funnel.md)
 
