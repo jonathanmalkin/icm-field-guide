@@ -7,5 +7,5 @@
   aggregation, interview follow-up, and reviewed report.
 - **Boundary:** regulatory sources and client evidence require provenance,
   isolation, and qualified approval.
-- **Evidence:** source-claimed client system; performance and commercial figures
-  are not independently verified in the reviewed source material.
+- **Evidence:** source-described client system; performance and commercial figures
+  are not independently verified in the captured corpus.

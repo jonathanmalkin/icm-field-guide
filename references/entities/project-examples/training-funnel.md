@@ -6,5 +6,4 @@
 - **ICM application:** exercises generate structured evidence about workflows;
   reviewed findings become build specifications, case studies, and future content.
 - **Key gate:** facilitators validate patterns before building or publishing.
-- **Evidence:** source-described operating model in the reviewed community
-  source material.
+- **Evidence:** source-described operating model across Vault materials.

@@ -8,4 +8,4 @@
   build/case study/content → next opportunity.
 - **Boundary:** contracts, relationship state, tasks, and revenue facts belong in
   their authoritative business systems.
-- **Evidence:** source-claimed partnership and commercial model; figures are unverified.
+- **Evidence:** source-described partnership and commercial model; figures are unverified.

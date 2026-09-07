@@ -1,30 +1,15 @@
-# Community-described project examples
+# Clief Notes project examples
 
-These are named or concrete examples, not canonical forms or general patterns.
-Evidence status describes only what is present in the reviewed source set.
-Inclusion does not imply affiliation or endorsement.
+Examples illustrate an orientation after a pattern or system archetype is
+selected; they do not establish canonical forms, product behavior, or a build
+recipe. Tool and workflow demonstrations live in [Tools and kits](../../tools-and-kits.md).
 
-| Example | Primary pattern | Evidence status |
+| Decision context | Examples | Evidence status |
 |---|---|---|
-| [Animation pipeline](animation-pipeline.md) | Creative artifact production | Demonstrated playbook |
-| [Website build](website-build.md) | Code or project build | Demonstrated playbook |
-| [Filesystem client management](filesystem-client-management.md) | CRM operations | Captured template |
-| [Small-business operations](small-business-operations.md) | Business operations | Captured reference architecture |
-| [Team Graph](team-graph.md) | Team/company brain | Captured template |
-| [Transcription workflow](transcription-workflow.md) | Ingest to model | Worked example |
-| [Ethics Engine](ethics-engine.md) | Audit/assessment | Public research paper |
-| [VigilOre](vigilore.md) | Audit/compliance | Source-claimed client system |
-| [NLP Logix](nlp-logix.md) | Acquisition/partnership flywheel | Source-claimed partnership |
-| [Emerge](emerge.md) | Acquisition flywheel | Detailed playbook with source claims |
-| [Training Funnel](training-funnel.md) | Training/workforce enablement | Source-described operating model |
-| [EdubaWare](edubaware.md) | Method productization | Product vision/roadmap |
-| [The Ledger](the-ledger.md) | Talent marketplace | Public site observed; production status unverified |
-| [SkillOpt](skillopt.md) | Method optimization | Public adjacent research |
-| [Hermes-Cognee deployment](../../tools-and-kits.md#hermes-cognee-deployment) | Persistent/remote operation | Source-described community stack |
-| [Claude Design workflow](../../tools-and-kits.md#claude-design-workflow) | Creative artifact production | Demonstrated course workflow |
-| [Claude Chrome workflow](../../tools-and-kits.md#claude-chrome-workflow) | Browser-assisted project build | Demonstrated course workflow |
-| [Session-to-artifact package](../../tools-and-kits.md#session-to-artifact-package) | Facilitated client delivery | Captured package pattern |
+| Creative or code delivery | [Animation pipeline](animation-pipeline.md), [Website build](website-build.md), [Transcription workflow](transcription-workflow.md) | Source inspected |
+| Company and client operations | [Filesystem client management](filesystem-client-management.md), [Small-business operations](small-business-operations.md), [Team Graph](team-graph.md) | Source-inspected template/reference |
+| Assessment and relationship work | [Ethics Engine](ethics-engine.md), [VigilOre](vigilore.md), [NLP Logix](nlp-logix.md), [Emerge](emerge.md), [Training Funnel](training-funnel.md) | Source-described; selected playbooks source inspected |
+| Productized or platform concepts | [EdubaWare](edubaware.md), [The Ledger](the-ledger.md), [SkillOpt](skillopt.md), [Clief Notes AI librarian](clief-notes-ai-librarian.md) | Source-described vision, research, or platform claims |
 
-Evidence labels preserve provenance and distinguish captured examples,
-source-described claims, and derived application guidance. They do not imply
-endorsement by the named people, projects, or organizations.
+Do not publish private course-derived details without a rights review. The
+evidence label on each card is sufficient for ordinary advisory use.

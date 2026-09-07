@@ -6,9 +6,9 @@ reusable context item that may deserve a durable home.
 
 ## Use it when
 
-Use a [Knowledge Bundle](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#4-knowledge-bundle--the-product-is-the-knowledge)
+Use a [Knowledge Bundle](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#4-knowledge-bundle--the-product-is-the-knowledge)
 when important context is repeatedly reconstructed and needs layered loading.
-Add a [Pipeline](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#1-pipeline--the-production-line)
+Add a [Pipeline](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#1-pipeline--the-production-line)
 only when captured material repeatedly becomes a specific output.
 
 ## What it contains
@@ -30,8 +30,4 @@ Capture is not automatic memory promotion. Remove the inbox when direct filing
 works, and remove the whole ICM layer when search or one curated reference file
 solves the recurring problem.
 
-## Deeper example
-
-- [Tools and kits compendium](../../tools-and-kits.md)
-
-Status: source-grounded starter.
+Status: source inspected; starter guidance is derived.

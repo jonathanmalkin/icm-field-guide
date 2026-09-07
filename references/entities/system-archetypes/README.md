@@ -6,5 +6,5 @@ transactional platform.
 
 | Archetype | Evidence | ICM role |
 |---|---|---|
-| [CRM operations](crm-operations.md) | Source-grounded filesystem starter | Context and artifact layer around relationships |
+| [CRM operations](crm-operations.md) | Source-inspected filesystem starter | Context and artifact layer around relationships |
 | [ERP operations](erp-operations.md) | Derived; no Clief ERP implementation found | Context map and workflow layer around enterprise records |

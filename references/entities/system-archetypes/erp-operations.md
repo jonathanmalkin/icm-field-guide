@@ -4,7 +4,7 @@
 - **Evidence note:** no ERP or enterprise-resource-planning implementation was
   found in Clief Notes. The Team Graph examples mention accounting systems,
   ledgers, campaign trackers, finance, and cross-team data flows.
-- **Canonical composition:** Context Map + process Pipelines; optional Record
+- **Likely composition:** Context Map + process Pipelines; optional Record
   Libraries for non-transactional cases or evidence
 - **Repeating units:** order, invoice, purchase, inventory movement, work order,
   close, forecast, or fulfillment exception
@@ -28,7 +28,7 @@ validation, idempotency, and audit logging outside the folder architecture.
 ## Applied cold-routing question
 
 After applying the canonical
-[walk test](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/SKILL.md#the-walk-test), ask whether a cold
+[walk test](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/SKILL.md#the-walk-test), ask whether a cold
 agent can identify the authoritative module and record, the process owner, the
 exact source inputs, the proposed action, and the human approval needed before
 any transaction changes.

@@ -6,4 +6,4 @@
 - **ICM application:** target-site context → PRD → implementation → verification
   → deployment approval.
 - **Authority:** repository and deployed site own behavior; the PRD owns approved intent.
-- **Evidence:** demonstrated static-site playbook with GitHub Pages as the named target.
+- **Evidence:** source-inspected static-site playbook with GitHub Pages as the named target.

@@ -7,4 +7,5 @@
   HTML site → deployment → in-person relationship handoff.
 - **Key gates:** rights/accuracy review before public deployment and human
   judgment before outreach.
-- **Evidence:** detailed Drawing Room playbook; scale and outcome figures are source claims.
+- **Evidence:** source-inspected Drawing Room playbook; scale and outcome
+  figures remain source-described claims.

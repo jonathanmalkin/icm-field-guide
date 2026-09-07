@@ -7,7 +7,5 @@
   deterministic administration and scoring → reviewed interpretation.
 - **Authority:** published instruments, code, and run data remain authoritative;
   narrative interpretation is a reviewed artifact.
-- **Evidence:** public research paper; not an ICM template.
-- **Source:** [The Ethics Engine: A Modular Pipeline for Accessible
-  Psychometric Assessment of Large Language
-  Models](https://arxiv.org/abs/2510.11742)
+- **Evidence:** source-described research system with an external paper reference;
+  not an ICM template in the captured corpus.

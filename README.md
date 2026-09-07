@@ -1,105 +1,49 @@
 # ICM Field Guide
 
-An unofficial, read-only community companion to
-[Interpretable Context Methodology](https://arxiv.org/abs/2603.16021).
+Decide whether a workflow needs ICM before building a workspace around it.
 
-Before building an ICM workspace, use the Field Guide to decide whether ICM is
-the smallest sufficient mechanism, which applied pattern fits, what a human
-must check, and where ICM should stop. When implementation begins, hand off to
-Jake Van Clief's separately distributed
-[ICM Architect](https://github.com/RinDig/icm-architect), the canonical build
-and restructure skill.
+This is Jonathan Malkin’s unofficial community companion to Jake Van Clief and David McDermott’s [Interpretable Context Methodology](https://arxiv.org/abs/2603.16021). It helps you compare ordinary files, a checklist, a saved prompt or skill, ICM, deterministic software, and combinations of those approaches.
 
-## Distribution status
+The Field Guide gives advice and records the next decision. When you ask to build, change, or audit a workspace, it hands off to Jake’s separately installed [ICM Architect](https://github.com/RinDig/icm-architect). Architect owns the method, forms, contracts, templates, and walk test.
 
-This repository is prepared for public community distribution under the MIT
-license. It contains original application guidance and compact, evidence-labeled
-summaries of community examples. It does not reproduce the underlying course
-files, transcripts, attachments, or templates.
+## Start with a real job
 
-Release verification completed July 19, 2026:
+Try one of these prompts:
 
-1. the skill structure, relative links, evidence labels, and named-example
-   descriptions passed static validation and independent review;
-2. representative advisory behavior was reviewed in Codex; and
-3. a clean Claude Code project with the Field Guide and a separately installed
-   ICM Architect preserved the read-only boundary and handed implementation off
-   by skill name.
+- “Client intake, research, delivery, and follow-up span several tools. Does this need ICM?”
+- “Help me choose between a saved skill and a workspace for workshop preparation.”
+- “I have a repository that agents struggle to navigate. What is the smallest useful next step?”
 
-No private source paths, source files, transcripts, participant details,
-confidential or nonpublic client facts, or authenticated links are included in
-this export.
+The guide asks what repeats, which artifacts need review, who takes over at each step, and which systems already own the records. A checklist or an existing router may be enough.
 
-## What is included
+## What changed in September 2026
 
-```text
-icm-field-guide/
-├── SKILL.md
-├── agents/
-├── references/
-├── README.md
-├── LICENSE
-└── NOTICE.md
-```
+The public package now includes the current decision-focused entrypoint, a repository change-impact pattern, four decision and verification aids, and guidance for untrusted content, external systems, concurrent work, and software dependencies.
 
-ICM Architect is intentionally not included. The skills are complementary but
-independently maintained and distributed. The Field Guide links to the exact
-pinned Architect snapshot rather than restating, vendoring, or forking it.
+Start with [Should this be ICM?](references/decision-aids/should-this-be-icm.md), compare the [worked decisions](references/decision-aids/worked-decisions.md), or inspect the [handoff brief](references/decision-aids/field-guide-to-architect-handoff.md). The [runtime check card](references/decision-aids/current-runtime-cold-test-card.md) records what was actually tested in a particular environment.
 
 ## Install
 
-Clone this repository directly into the skill location for your runtime.
-
-For a project-local Codex installation:
+Place this repository in the skill directory your agent uses. For the project layouts used here:
 
 ```bash
-mkdir -p .agents/skills
-git clone https://github.com/jonathanmalkin/icm-field-guide \
-  .agents/skills/icm-field-guide
+# Codex
+git clone https://github.com/jonathanmalkin/icm-field-guide .agents/skills/icm-field-guide
+
+# Claude Code
+git clone https://github.com/jonathanmalkin/icm-field-guide .claude/skills/icm-field-guide
 ```
 
-For a project-local Claude Code installation:
+Use the command for your runtime. For an existing installation, update that checkout through your usual Git workflow while preserving local changes.
 
-```bash
-mkdir -p .claude/skills
-git clone https://github.com/jonathanmalkin/icm-field-guide \
-  .claude/skills/icm-field-guide
-```
+Install [ICM Architect](https://github.com/RinDig/icm-architect) separately when you want implementation. The Field Guide’s reference snapshot lives in [SKILL.md](SKILL.md); links in this public package point to that published snapshot. Advisory use can consult those links without a sibling Architect installation. Test the routes you need in your actual runtime before relying on them.
 
-For a user-level installation, use `~/.agents/skills/icm-field-guide` for
-Codex or `~/.claude/skills/icm-field-guide` for Claude Code.
+## Scope and attribution
 
-For implementation work, install
-[RinDig/icm-architect](https://github.com/RinDig/icm-architect) separately.
-The Field Guide's canonical references are pinned to upstream commit
-[`e5313c3`](https://github.com/RinDig/icm-architect/commit/e5313c308522ff9c4646a17b06fb1ddb0d844917).
-This is a stable documentation reference, not an Architect installation
-requirement.
-Follow Architect's upstream installation instructions for Claude Code. For
-Codex, place its separately cloned repository at
-`.agents/skills/icm-architect` or `~/.agents/skills/icm-architect`. When both
-skills are available to the same runtime, implementation requests hand off by
-the `icm-architect` skill name. Field Guide advisory use does not require
-Architect to be installed.
+The package contains original application guidance, generic decision aids, and brief evidence-labeled descriptions of community examples. Example descriptions distinguish source inspection from observed operation. They are not product endorsements or verified performance claims.
 
-Then ask:
+Private study maps, source registers, course files, transcripts, client information, and local maintenance records are excluded. The Field Guide does not bundle Architect or reproduce its templates. Existing business systems retain their records, permissions, and transactions.
 
-- “Which ICM pattern fits this workflow?”
-- “Compare a company brain with a research hub.”
-- “Does this need ICM, ordinary files, a skill, code, or a hybrid?”
+The September refresh passed structural, local-link, export-integrity, and pinned-upstream checks. Those checks do not establish compatibility with every runtime or verify the named community projects.
 
-Use ICM Architect when you are ready to build or restructure actual files.
-
-## Design boundary
-
-- Field Guide: explanation, comparison, fit assessment, pattern selection, and
-  operational cautions.
-- ICM Architect: canonical forms, workspace construction, restructuring,
-  migration, contracts, templates, and the walk test.
-- External systems: authentication, permissions, transactions, locking,
-  authoritative business data, and consequential actions.
-
-See [NOTICE.md](NOTICE.md) for attribution and third-party boundaries. The
-Field Guide and repository wrapper use the MIT license in [LICENSE](LICENSE).
-ICM Architect is not part of this repository and retains its own upstream
-license and maintenance process.
+See [NOTICE.md](NOTICE.md) for attribution and distribution boundaries and [LICENSE](LICENSE) for the MIT license covering Jonathan’s original contribution.

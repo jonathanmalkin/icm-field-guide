@@ -6,9 +6,9 @@ source, claim, experiment, or reviewed synthesis.
 
 ## Use it when
 
-Use a [Record Library](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#3-record-library--the-unit-is-a-record)
+Use a [Record Library](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#3-record-library--the-unit-is-a-record)
 when sources or experiments accumulate in a uniform shape. Use a
-[Knowledge Bundle](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#4-knowledge-bundle--the-product-is-the-knowledge)
+[Knowledge Bundle](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#4-knowledge-bundle--the-product-is-the-knowledge)
 when reviewed conclusions must be navigated and reused. Add an
 [Ingest-to-model](../compositions/ingest-to-model.md) pipeline only when
 acquisition and extraction genuinely repeat.
@@ -29,9 +29,5 @@ with provenance → review → promote into the navigable bundle.
 A person distinguishes source statements, inference, and approved synthesis.
 Do not present a template or source claim as observed truth. Remove the
 synthesis layer when consumers can safely work from the raw sources directly.
-
-## Deeper example
-
-- [Tools and kits compendium](../../tools-and-kits.md)
 
 Status: derived application.

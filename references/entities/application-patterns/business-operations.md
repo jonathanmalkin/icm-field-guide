@@ -6,9 +6,9 @@ business and quality rules govern repeated work.
 
 ## Use it when
 
-Use a [Pipeline](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#1-pipeline--the-production-line)
+Use a [Pipeline](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#1-pipeline--the-production-line)
 for one operating line. Use an
-[Umbrella](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
+[Umbrella](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
 when several distinct lines share policies, voice, or business rules. Do not
 build it while the real process is still unknown.
 
@@ -37,4 +37,4 @@ present.
 
 - [Small-business operations architecture](../project-examples/small-business-operations.md)
 
-Status: source-grounded.
+Status: source inspected; application guidance is derived.

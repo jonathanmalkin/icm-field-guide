@@ -6,4 +6,4 @@
 - **ICM application:** shared business rules and quality standards → intake →
   process → deliver.
 - **Key gate:** exceptions and consequential delivery.
-- **Evidence:** captured Vault reference architecture.
+- **Evidence:** source-inspected Vault reference architecture.

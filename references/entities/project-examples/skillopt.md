@@ -7,7 +7,5 @@
   human review → versioned promotion.
 - **Boundary:** prevent evaluation leakage and keep the human owner responsible
   for changes to method or behavior.
-- **Evidence:** public Microsoft Research paper; adjacent skill-optimization
-  research, not an ICM implementation.
-- **Source:** [SkillOpt: Executive Strategy for Self-Evolving Agent
-  Skills](https://arxiv.org/abs/2605.23904)
+- **Evidence:** source-described external research; the implementation and
+  results are not captured as a local project.

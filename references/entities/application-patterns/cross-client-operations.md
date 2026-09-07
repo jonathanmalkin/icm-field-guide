@@ -6,16 +6,16 @@ of client data.
 
 ## Use it when
 
-Use this pattern only when the same delivery method genuinely repeats and real
-platform controls isolate clients. Structurally it is an
-[Umbrella](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
-over isolated instances, often following the
-[Method factory and instances](../compositions/method-factory-instances.md)
-composition.
+Use this orientation only when the same delivery method genuinely repeats and
+isolation can be demonstrated. Its likely composition is an
+[Umbrella](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
+of client-local pipelines, often with
+[method factory and instances](../compositions/method-factory-instances.md).
+These are canonical-form references, not a claim that folders provide isolation.
 
 ## What it contains
 
-- one sanitized method with no confidential or nonpublic client facts;
+- one sanitized method with no client facts;
 - an explicit active-client declaration;
 - separately controlled client inputs, references, credentials, and outputs;
 - a local delivery and approval path for each client;

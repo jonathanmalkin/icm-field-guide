@@ -7,4 +7,4 @@
   animation or knowledge promotion.
 - **Key test:** each supposed agent can usually be a fresh session reading the
   relevant stage folder; use orchestration only when autonomy or scale demands it.
-- **Evidence:** worked example in Multi-Agent Workspaces.
+- **Evidence:** source-inspected worked example in Multi-Agent Workspaces.

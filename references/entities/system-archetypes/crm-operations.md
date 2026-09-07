@@ -1,8 +1,8 @@
 # CRM operations
 
-- **Status:** source-grounded filesystem starter; derived integration guidance
-- **Canonical composition:** Record Library + acquisition Pipeline + optional
-  client-delivery Pipelines
+- **Status:** source-inspected filesystem starter; derived integration guidance
+- **Likely composition:** Record Library + acquisition Pipeline + optional
+  [client-delivery Pipelines](../application-patterns/client-delivery.md)
 - **Repeating units:** contact, company, opportunity, interaction, task, and engagement
 - **Clief evidence:** the Client Management workflow starter defines business
   development, lead stages, outreach, proposals, client records,
@@ -33,7 +33,7 @@ concurrency control, email logging, or a transactional database.
 ## Applied cold-routing question
 
 After applying the canonical
-[walk test](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/SKILL.md#the-walk-test), ask whether a cold
+[walk test](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/SKILL.md#the-walk-test), ask whether a cold
 agent can find the authoritative relationship record, current approved brief,
 next human decision, and safe output location without reading another client's
 context.

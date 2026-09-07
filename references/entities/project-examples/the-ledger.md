@@ -7,6 +7,5 @@
 - **ICM application:** portfolio evidence and capability context may be plain
   files; identity, consent, applications, commercial state, and matching events
   require a real platform or CRM.
-- **Evidence:** public Eduba site observed; production operation and
-  outcomes are not independently verified.
-- **Source:** [Ledger, by Eduba](https://talent.eduba.io/)
+- **Evidence:** source-described launch/product claims; implementation was not
+  source inspected.

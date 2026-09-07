@@ -9,9 +9,9 @@ campaign, event, or partnership opportunity.
 
 Use this pattern when several relationship-building workflows share positioning
 and evidence, and when delivery should feed future outreach or partnerships. It
-is usually an [Umbrella](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
+is usually an [Umbrella](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#2-umbrella--a-portfolio-of-pipelines)
 whose pipelines feed a
-[Record Library](https://github.com/RinDig/icm-architect/blob/e5313c308522ff9c4646a17b06fb1ddb0d844917/references/forms.md#3-record-library--the-unit-is-a-record)
+[Record Library](https://github.com/RinDig/icm-architect/blob/b20fb45063a564cf607b03526e206f519d174def/references/forms.md#3-record-library--the-unit-is-a-record)
 or an external CRM.
 
 ## What it contains
@@ -40,4 +40,4 @@ reusable methods. See [CRM operations](../system-archetypes/crm-operations.md).
 - [NLP Logix](../project-examples/nlp-logix.md)
 - [Training Funnel](../project-examples/training-funnel.md)
 
-Status: source-grounded derived pattern.
+Status: source inspected; application guidance is derived.

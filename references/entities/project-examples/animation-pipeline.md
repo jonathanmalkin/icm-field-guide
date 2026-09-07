@@ -6,5 +6,5 @@
 - **ICM application:** shared visual rules and components → script → creative
   spec → build → render → review.
 - **Key gate:** approve the spec before implementation.
-- **Evidence:** demonstrated course playbook using Remotion and an
+- **Evidence:** source-inspected course playbook using Remotion and an
   Illustrator-to-web variant.

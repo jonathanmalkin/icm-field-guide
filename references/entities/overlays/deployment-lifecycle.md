@@ -6,6 +6,10 @@
   permissions, synchronized sources, and change review.
 - **Life 3 — deployable:** configured instances, defined interfaces, isolation,
   observability, support, upgrade policy, and hidden/private factory material.
+- **Rollback and retirement:** before shared or deployable release, define a
+  tested rollback to a known version, data and credential revocation, retention
+  or deletion handling, owner handoff, and a retirement path that stops work
+  without claiming erased external state from a local artifact.
 - **Human check:** explicitly approve every lifecycle transition.
 - **Removal test:** do not add deployment machinery to a workflow that is still
   being discovered by one person.

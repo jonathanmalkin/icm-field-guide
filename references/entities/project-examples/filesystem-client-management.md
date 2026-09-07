@@ -7,4 +7,4 @@
   communications, deliverables, and case studies.
 - **Boundary:** suitable as a one-operator starter; when a CRM exists, the CRM
   owns contacts, opportunity stages, activities, and tasks.
-- **Evidence:** captured Vault workflow template.
+- **Evidence:** source-inspected Vault workflow template.
